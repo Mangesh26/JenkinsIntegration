@@ -1,0 +1,25 @@
+package tesT;
+
+interface book{
+	void read();
+}
+
+interface magzine{
+	void read();
+}
+
+public class InterfaceTest implements book,magzine{
+
+	public void read(){
+		System.out.println("Reading....");
+		System.out.println("Leading....");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		book b = new InterfaceTest();
+		magzine r = new InterfaceTest();
+		b.read();
+		r.read();
+	}
+}

@@ -11,10 +11,7 @@ public class ArrangeAplhabatically {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-
 		List<String> listOfCountryNames=new ArrayList<String>(); 
-		
-		
 		
 		listOfCountryNames.add("India");
 		listOfCountryNames.add("China");
@@ -27,10 +24,7 @@ public class ArrangeAplhabatically {
 		
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
-			            
 		}
-		
-		
 	}
 
 }
