@@ -1,0 +1,14 @@
+package tesT;
+
+public class Demo {
+
+	public void print(){
+		System.out.println("hjdk");
+    }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
