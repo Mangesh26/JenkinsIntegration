@@ -1,15 +1,9 @@
 package tesT;
 
-public class Demo {
+public class Demo extends test{
 
-	public void print(){
-		System.out.println("You will never walk alone");
-		System.out.println("GERMANS");
+	public static void print(){
+		System.out.println("Calling print()");
     }
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

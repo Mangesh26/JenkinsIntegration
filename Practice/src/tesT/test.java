@@ -1,11 +1,9 @@
 package tesT;
 
-public class test {
+public class test extends ArrangeAplhabatically{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Demo obj = new Demo();
-		obj.print();
+	public static void show(){
+		System.out.println("Calling show()");
 	}
 
 }

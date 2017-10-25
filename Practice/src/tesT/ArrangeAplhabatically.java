@@ -6,11 +6,14 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-public class ArrangeAplhabatically {
+public class ArrangeAplhabatically{
 
-	public static void main(String[] args) {
+	public static void displayListing() {
+		
+		System.out.println("Calling displayListing()");
 		// TODO Auto-generated method stub
 
+		System.out.println("----------------------------------");
 		List<String> listOfCountryNames=new ArrayList<String>(); 
 		
 		listOfCountryNames.add("India");
